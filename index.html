@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS GAMES</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #090b18;
+  color: white;
+}
+header {
+  padding: 22px;
+  background: #12152b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #754cff;
+}
+.logo { color: #a78bfa; font-size: 25px; font-weight: bold; }
+nav a { color: white; text-decoration: none; margin-left: 15px; }
+.hero {
+  text-align: center;
+  padding: 65px 20px;
+  background: linear-gradient(135deg,#21104a,#101b42,#090b18);
+}
+.hero h1 { font-size: 42px; margin: 0 0 15px; }
+.hero p { color: #c5c5df; }
+.games {
+  max-width: 1050px;
+  margin: 35px auto;
+  padding: 15px;
+}
+.games h2 { color: #a78bfa; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+}
+.card {
+  background: #171a32;
+  border: 1px solid #34365b;
+  border-radius: 15px;
+  padding: 22px;
+  text-align: center;
+}
+.art {
+  font-size: 65px;
+  padding: 20px;
+  background: linear-gradient(135deg,#35216b,#182c59);
+  border-radius: 12px;
+}
+.card h3 { margin: 15px 0 8px; }
+.card p { color: #b9bad1; font-size: 14px; }
+.btn {
+  display: inline-block;
+  background: #8055ff;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.btn:hover { background: #a184ff; }
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #9293ad;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">⚡ NEXUS GAMES</div>
+  <nav><a href="#games">Games</a></nav>
+</header>
+
+<section class="hero">
+  <h1>YOUR NEXT GAME STARTS HERE.</h1>
+  <p>Discover games. Jump in. Have fun.</p>
+  <a class="btn" href="#games">EXPLORE GAMES</a>
+</section>
+
+<section class="games" id="games">
+  <h2>🎮 GAME LIBRARY</h2>
+  <div class="grid">
+
+    <div class="card">
+      <div class="art">🏝️</div>
+      <h3>FORTNITE</h3>
+      <p>Drop in and battle for victory!</p>
+      <a class="btn" href="https://www.xbox.com/play/games/fortnite/BT5P2X999VH2" target="_blank" rel="noopener">PLAY NOW</a>
+    </div>
+
+    <div class="card">
+      <div class="art">🚗</div>
+      <h3>ROCKET LEAGUE</h3>
+      <p>Cars, soccer and awesome goals.</p>
+      <a class="btn" href="https://www.rocketleague.com/" target="_blank" rel="noopener">PLAY NOW</a>
+    </div>
+
+    <div class="card">
+      <div class="art">🧱</div>
+      <h3>ROBLOX</h3>
+      <p>Explore millions of experiences.</p>
+      <a class="btn" href="https://www.roblox.com/" target="_blank" rel="noopener">PLAY NOW</a>
+    </div>
+
+    <div class="card">
+      <div class="art">🕹️</div>
+      <h3>BROWSER GAMES</h3>
+      <p>Find fun games you can play online.</p>
+      <a class="btn" href="https://www.crazygames.com/" target="_blank" rel="noopener">PLAY NOW</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>⚡ NEXUS GAMES | Game on!</p>
+  <p>Fan-made gaming website. Not affiliated with the games listed.</p>
+</footer>
+
+</body>
+</html>
